@@ -1,0 +1,7 @@
+  apiKey: "AIzaSyC1eKSV7e9L_nQMYEkPmD2qjcwNAALS1rU",
+  authDomain: "smartcontainerapp.firebaseapp.com",
+  projectId: "smartcontainerapp",
+  storageBucket: "smartcontainerapp.appspot.com",
+  messagingSenderId: "1086527239265",
+  appId: "1:1086527239265:web:94cd36d5f08a3245cf6620",
+  databaseURL: "https://smartcontainerapp-default-rtdb.asia-southeast1.firebasedatabase.app/"
