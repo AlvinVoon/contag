@@ -5,3 +5,24 @@
   messagingSenderId: "1086527239265",
   appId: "1:1086527239265:web:94cd36d5f08a3245cf6620",
   databaseURL: "https://smartcontainerapp-default-rtdb.asia-southeast1.firebasedatabase.app/"
+
+         <Pressable
+          onPress={handleClockIconPress}
+          style={({ pressed }) => [
+            {
+              backgroundColor: pressed ? 'rgb(210, 230, 255)' : 'white',
+            },
+          ]}
+        >
+          <Icon name="clock" size={35} color="#900" />
+        </Pressable>
+        <View style={{ width: 5, height: '100%', backgroundColor: '#000000' }} />
+        <Pressable onPress={handleListIconPress}>
+          <Icon name="list" size={35} color="#900" />
+        </Pressable>
+
+              <Icon name="thermometer" size={35} color="#900" />
+      <Icon name="droplet" size={35} color="#900" />
+
+              <View style={styles.notification}>
+          </View>
